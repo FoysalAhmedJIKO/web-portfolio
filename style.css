@@ -1,0 +1,42 @@
+body{
+    margin: 0%;
+    font-family: 'Noto Sans', sans-serif;
+}
+p{
+    color:lightslategray;
+}
+h2{
+    color: mediumslateblue;
+
+}
+h4{
+    color:rgb(99, 42, 165);
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.name-highlight{
+    color: rgb(15, 226, 233);
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat; 
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient( rgb(235, 16, 198),rgb(210, 104, 231) );
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 900;
+}
