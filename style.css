@@ -9,6 +9,9 @@ h2{
     color: mediumslateblue;
 
 }
+h3{
+    color: darkviolet;
+}
 h4{
     color:rgb(99, 42, 165);
 }
@@ -39,4 +42,32 @@ section{
     border-radius: 10px;
     color: white;
     font-weight: 900;
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 5%;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 70%;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 6%;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(56, 202, 228),rgb(198, 15, 235));
+    border-image-slice: 1;
+}
+#beginner-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(138, 4, 156),rgb(53, 13, 230));
+    border-image-slice: 1;
+
 }
