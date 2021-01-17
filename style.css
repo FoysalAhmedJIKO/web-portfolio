@@ -58,7 +58,7 @@ section{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
-    background-size: 6%;
+    background-size: 5%;
 }
 #full-stack{
     border-left: 7px solid;
@@ -70,4 +70,8 @@ section{
     border-image: linear-gradient(180deg, rgb(138, 4, 156),rgb(53, 13, 230));
     border-image-slice: 1;
 
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
